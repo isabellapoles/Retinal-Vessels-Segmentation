@@ -2,7 +2,7 @@
 Matlab implementation of a retinal vessels segmentation alogorithm using the Chan-Vese segmentation method from a Matched Filter response.
 
 ## Database 
-The proposed method has been developed using the available [STARE] (https://cecas.clemson.edu/~ahoover/stare/probing/index.html)'s images.
+The proposed method has been developed using the available [STARE](https://cecas.clemson.edu/~ahoover/stare/probing/index.html)'s images.
 On the basis of visual inspection a further classification of the 20 retinal fundus slides has been performed considering intensity based features:
 12 images in the informative group (high contrasted blood vessels with respect to the background and absence of illumination artifacts), 5 images in the low contrast image group (presence of shadows of various colors (yellow, orange and blue), non uniform illumination and lower contrast between the vessel structures and the background), 3 images in the artifacts image group (affected by strong light reflectance artifacts).
 
