@@ -9,7 +9,11 @@ On the basis of visual inspection a further classification of the 20 retinal fun
 ## Algorithm 
 The dataset subdivision reported in Section \ref{sec:Images} reflects also the algorithm architecture that has been structured in three parallel flows, each one specialized to assess the proper image group. 
 ### Informative image group
-```main_informative```
+```main_informative``` is the main script used to implement: 
+⋅⋅* Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
+⋅⋅* Matched Filter response segmented with Otzu Thresholding: for comparison; 
+⋅⋅* Matched Filter response enhanced with Sobel edge detector segmented with Otzu Thresholding: for comparison;
+⋅⋅* the Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
