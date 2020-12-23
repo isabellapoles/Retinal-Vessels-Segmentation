@@ -45,9 +45,9 @@ The computation of the following evaluation metrics is proposed:
 4. False Positive Rate (specificity=1-FPR); 
 5. Positive predictive value (precision). 
 
-At the end the optic Disk extraction is implemented. 
+At the end the optic disk extraction is implemented. 
 
-```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the 4 methods listed above is shown in a table.  
+```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the performance of the 4 methods listed above is shown in a table.  
 
 
 ### FOLD Low constrast image group
@@ -78,7 +78,7 @@ The computation of the following evaluation metrics is proposed:
 4. False Positive Rate (specificity=1-FPR); 
 5. Positive predictive value (precision).
 
-```result_Lc``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the low contrast images. The comparison between the 3 methods listed above is shown in a table. 
+```result_Lc``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the low contrast images. The comparison between the performance of the 3 methods listed above is shown in a table. 
 
 
 ### FOLD Artifact image group
@@ -107,4 +107,4 @@ The computation of the following evaluation metrics is proposed:
 4. False Positive Rate (specificity=1-FPR); 
 5. Positive predictive value (precision).
 
-```result_Ar``` is the script that allows to compute the mean values of the evaluation metrics proposed above between all the artifact images. The comparison between the 3 methods listed above is shown in a table. 
+```result_Ar``` is the script that allows to compute the mean values of the evaluation metrics proposed above between all the artifact images. The comparison between the performance of the 3 methods listed above is shown in a table. 
