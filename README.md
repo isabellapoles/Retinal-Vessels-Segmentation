@@ -9,7 +9,7 @@ On the basis of visual inspection a further classification of the 20 retinal fun
 ## Algorithm 
 The dataset subdivision reported in Section \ref{sec:Images} reflects also the algorithm architecture that has been structured in three parallel flows, each one specialized to assess the proper image group. 
 
-### Informative image group
+### FOLD Informative image group
 
 ```main_informative``` is the main script used to implement: 
 1. Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
@@ -36,6 +36,17 @@ Images belonging to this group are:
 
 An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
 For this script no parameter tuning is necessary. 
+
+The computation of the following evaluation metrics is proposed: 
+1. Accuracy; 
+2. Dice Similarity Coefficient; 
+3. True Positive Rate (sensitivity/recall/hit rate); 
+4. False Positive Rate (specificity=1-FPR); 
+5. Positive predictive value (precision). 
+
+At the end the optic Disk extraction is implemented. 
+
+```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the 4 methods listed above is shown in a table.  
 
 
 ### Informative image group
