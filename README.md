@@ -8,13 +8,16 @@ On the basis of visual inspection a further classification of the 20 retinal fun
 
 ## Algorithm 
 The dataset subdivision reported in Section \ref{sec:Images} reflects also the algorithm architecture that has been structured in three parallel flows, each one specialized to assess the proper image group. 
+
 ### Informative image group
+
 ```main_informative``` is the main script used to implement: 
 1. Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
 2. Matched Filter response segmented with Otzu Thresholding: for comparison; 
 3. Matched Filter response enhanced with Sobel edge detector segmented with Otzu Thresholding: for comparison;
 4. Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
-#### Note
+
+#### Images
 Images belonging to this group are: 
 | Images        | 
 | --------------|
@@ -30,6 +33,39 @@ Images belonging to this group are:
 | im0239.ppm.gz |
 | im0240.ppm.gz |
 | im0255.ppm.gz |
+
+An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
+For this script no parameter tuning is necessary. 
+
+
+### Informative image group
+
+```main_informative``` is the main script used to implement: 
+1. Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
+2. Matched Filter response segmented with Otzu Thresholding: for comparison; 
+3. Matched Filter response enhanced with Sobel edge detector segmented with Otzu Thresholding: for comparison;
+4. Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
+
+#### Images
+Images belonging to this group are: 
+| Images        | 
+| --------------|
+| im0044.ppm.gz |
+| im0077.ppm.gz |
+| im0081.ppm.gz |
+| im0082.ppm.gz |
+| im0139.ppm.gz |
+| im0162.ppm.gz |
+| im0163.ppm.gz |
+| im0235.ppm.gz |
+| im0236.ppm.gz |
+| im0239.ppm.gz |
+| im0240.ppm.gz |
+| im0255.ppm.gz |
+
+An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
+For this script no parameter tuning is necessary. 
+
 
 
 
