@@ -20,7 +20,7 @@ The dataset subdivision reflects also the algorithm architecture that has been s
 #### Images
 An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
 For this script no parameter tuning is necessary. 
-Images belonging to this group are: 
+Images belonging to this group are stored in the ```Images``` fold: 
 | Images        | 
 | --------------|
 | im0044.ppm.gz |
@@ -47,7 +47,7 @@ The computation of the following evaluation metrics is proposed:
 
 At the end the optic disk extraction is implemented. 
 
-```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the performance of the 4 methods listed above is shown in a table.  
+```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the performance of the 4 methods listed above is shown in a table. The results are stored in the ```Results``` fold.
 
 
 ### FOLD Low constrast image group
@@ -60,7 +60,7 @@ At the end the optic disk extraction is implemented.
 #### Images
 An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table below. 
 Parameter tuning is necessary: fit the code at ```extension_par``` (line 208) with the parameters shown below.
-Images belonging to this group are: 
+Images belonging to this group are stored in the ```Images``` fold: 
 | Images        | ```extension_par``` |
 |-------------- |:-------------------:| 
 | im0004.ppm.gz |-0.23                |
@@ -78,7 +78,7 @@ The computation of the following evaluation metrics is proposed:
 4. False Positive Rate (specificity=1-FPR); 
 5. Positive predictive value (precision).
 
-```result_Lc``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the low contrast images. The comparison between the performance of the 3 methods listed above is shown in a table. 
+```result_Lc``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the low contrast images. The comparison between the performance of the 3 methods listed above is shown in a table. The results are stored in the ```Results``` fold.
 
 
 ### FOLD Artifact image group
@@ -91,7 +91,7 @@ The computation of the following evaluation metrics is proposed:
 #### Images
 An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table below. 
 Parameter tuning is necessary: fit the code at ```extension_par``` (line 219) and ```BW_burnt``` (line 90) with the parameters shown below.
-Images belonging to this group are: 
+Images belonging to this group are stored in the ```Images``` fold: 
 | Images        | ```extension_par``` | ```BW_burnt```      |
 |-------------- |:-------------------:|:-------------------:|
 | im0001.ppm.gz |-0.06                |0.52                 |
@@ -107,4 +107,4 @@ The computation of the following evaluation metrics is proposed:
 4. False Positive Rate (specificity=1-FPR); 
 5. Positive predictive value (precision).
 
-```result_Ar``` is the script that allows to compute the mean values of the evaluation metrics proposed above between all the artifact images. The comparison between the performance of the 3 methods listed above is shown in a table. 
+```result_Ar``` is the script that allows to compute the mean values of the evaluation metrics proposed above between all the artifact images. The comparison between the performance of the 3 methods listed above is shown in a table. The results are stored in the ```Results``` fold.
