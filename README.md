@@ -13,9 +13,28 @@ The dataset subdivision reported in Section \ref{sec:Images} reflects also the a
 1. Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
 2. Matched Filter response segmented with Otzu Thresholding: for comparison; 
 3. Matched Filter response enhanced with Sobel edge detector segmented with Otzu Thresholding: for comparison;
-..* the Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
+4. Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
+#### Note
+Images belonging to this group are: 
+| Images        | 
+| --------------|
+| im0044.ppm.gz | 
+| im0044.ppm.gz |
+| im0077.ppm.gz |
+| im0081.ppm.gz |
+| im0082.ppm.gz |
+| im0139.ppm.gz |
+| im0162.ppm.gz |
+| im0163.ppm.gz |
+| im0235.ppm.gz |
+| im0236.ppm.gz |
+| im0239.ppm.gz |
+| im0240.ppm.gz |
+| im0255.ppm.gz |
 
-| Tables        | Are           | Cool  |
+
+
+| Images        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
