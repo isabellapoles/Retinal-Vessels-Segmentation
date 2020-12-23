@@ -2,7 +2,7 @@
 Matlab implementation of a retinal vessels segmentation alogorithm using the Chan-Vese segmentation method from a Matched Filter response.
 
 ## Database 
-The proposed method has been developed using the available [STARE(https://cecas.clemson.edu/~ahoover/stare/probing/index.html)] images.
+The proposed method has been developed using the available [STARE] (https://cecas.clemson.edu/~ahoover/stare/probing/index.html) images.
 On the basis of visual inspection a further classification of the 20 retinal fundus slides has been performed considering intensity based features:
 12 images in the informative group (high contrasted blood vessels with respect to the background and absence of illumination artifacts), 5 images in the low contrast image group (presence of shadows of various colors (yellow, orange and blue), non uniform illumination and lower contrast between the vessel structures and the background), 3 images in the artifacts image group (affected by strong light reflectance artifacts).
 
@@ -94,8 +94,8 @@ Parameter tuning is necessary: fit the code at ```extension_par``` (line 219) an
 Images belonging to this group are: 
 | Images        | ```extension_par``` | ```BW_burnt```      |
 |-------------- |:-------------------:|:-------------------:|
-| im0001.ppm.gz |-0.07                |0.52                 |
-| im0002.ppm.gz |-0.07                |0.46                 |
+| im0001.ppm.gz |-0.06                |0.52                 |
+| im0002.ppm.gz |-0.06                |0.46                 |
 | im0003.ppm.gz |-0.04                |0.6                  |
 
 For each image the corresponding ground truth hand labelled image is selected automatically. 
@@ -108,10 +108,3 @@ The computation of the following evaluation metrics is proposed:
 5. Positive predictive value (precision).
 
 ```result_Ar``` is the script that allows to compute the mean values of the evaluation metrics proposed above between all the artifact images. The comparison between the 3 methods listed above is shown in a table. 
-
-
-
-
-
-
-
