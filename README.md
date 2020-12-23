@@ -7,7 +7,7 @@ On the basis of visual inspection a further classification of the 20 retinal fun
 12 images in the informative group (high contrasted blood vessels with respect to the background and absence of illumination artifacts), 5 images in the low contrast image group (presence of shadows of various colors (yellow, orange and blue), non uniform illumination and lower contrast between the vessel structures and the background), 3 images in the artifacts image group (affected by strong light reflectance artifacts).
 
 ## Algorithm 
-The dataset subdivision reflects also the algorithm architecture that has been structured in three parallel flows, each one specialized to assess the proper image group. 
+The dataset subdivision reflects also the algorithm architecture that has been structured in three parallel flows, each one specialized to assess the proper image group. Each flow is implemented in one FOLD. 
 
 ### FOLD Informative image group
 
