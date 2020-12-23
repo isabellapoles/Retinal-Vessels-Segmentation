@@ -18,7 +18,6 @@ The dataset subdivision reported in Section \ref{sec:Images} reflects also the a
 Images belonging to this group are: 
 | Images        | 
 | --------------|
-| im0044.ppm.gz | 
 | im0044.ppm.gz |
 | im0077.ppm.gz |
 | im0081.ppm.gz |
