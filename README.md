@@ -18,6 +18,8 @@ The dataset subdivision reported in Section \ref{sec:Images} reflects also the a
 4. Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
 
 #### Images
+An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
+For this script no parameter tuning is necessary. 
 Images belonging to this group are: 
 | Images        | 
 | --------------|
@@ -34,8 +36,6 @@ Images belonging to this group are:
 | im0240.ppm.gz |
 | im0255.ppm.gz |
 
-An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
-For this script no parameter tuning is necessary. 
 
 The computation of the following evaluation metrics is proposed: 
 1. Accuracy; 
@@ -49,42 +49,31 @@ At the end the optic Disk extraction is implemented.
 ```result_In``` is the script that allows to compute the mean values of the of the evaluation metrics proposed above between all the informative images. The comparison between the 4 methods listed above is shown in a table.  
 
 
-### Informative image group
+### FOLD Low constrast image group
 
-```main_informative``` is the main script used to implement: 
-1. Top Hat morphological operation, the Matched Filter and the Chan-Vese Active Contour segmentation method: main method; 
-2. Matched Filter response segmented with Otzu Thresholding: for comparison; 
-3. Matched Filter response enhanced with Sobel edge detector segmented with Otzu Thresholding: for comparison;
-4. Matched Filter response enhanced with Kirsh compass mask and segmented with Otzu Thresholding: for comparison.
+```main_lowContrast``` is the main script used to implement: 
+1. Contrast Limited Adaptive Histogram Equalization, the Matched Filter with the Chan-Vese Active Contour: main method; 
+2. Matched Filter response and segmented with Otzu Thresholding: for comparison; 
+3. Matched Filter response enhanced with Sobel edge detector and segmented with Otzu Thresholding: for comparison. 
 
 #### Images
+An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table below. 
+Parameter tuning is necessary: fit the code at line 208 with the parameters shown below.
 Images belonging to this group are: 
-| Images        | 
-| --------------|
-| im0044.ppm.gz |
-| im0077.ppm.gz |
-| im0081.ppm.gz |
-| im0082.ppm.gz |
-| im0139.ppm.gz |
-| im0162.ppm.gz |
-| im0163.ppm.gz |
-| im0235.ppm.gz |
-| im0236.ppm.gz |
-| im0239.ppm.gz |
-| im0240.ppm.gz |
-| im0255.ppm.gz |
-
-An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table above. 
-For this script no parameter tuning is necessary. 
+| Images        | ```extension_par``` |
+|-------------- |:-------------------:| 
+| im0004.ppm.gz |-0.23                |
+| im0005.ppm.gz |-0.18                |
+| im0291.ppm.gz |-0.25                |
+| im0319.ppm.gz |-0.19                |
+| im0324.ppm.gz |-0.19                |
 
 
 
 
-| Images        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
+
+
 
 
 
