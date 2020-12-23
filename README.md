@@ -59,7 +59,7 @@ At the end the optic disk extraction is implemented.
 
 #### Images
 An I/O interface is proposed to let the user choose the wanted image: select one of the images reported in the table below. 
-Parameter tuning is necessary: fit the code at line 208 with the parameters shown below.
+Parameter tuning is necessary: fit the code at ```extension_par``` (line 208) with the parameters shown below.
 Images belonging to this group are: 
 | Images        | ```extension_par``` |
 |-------------- |:-------------------:| 
