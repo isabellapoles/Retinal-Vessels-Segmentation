@@ -2,7 +2,7 @@
 Matlab implementation of a retinal vessels segmentation alogorithm using the Chan-Vese segmentation method from a Matched Filter response.
 
 ## Database 
-The proposed method has been developed using the available [STARE] images (https://cecas.clemson.edu/~ahoover/stare/probing/index.html).
+The proposed method has been developed using the available [STARE(https://cecas.clemson.edu/~ahoover/stare/probing/index.html)] images.
 On the basis of visual inspection a further classification of the 20 retinal fundus slides has been performed considering intensity based features:
 12 images in the informative group (high contrasted blood vessels with respect to the background and absence of illumination artifacts), 5 images in the low contrast image group (presence of shadows of various colors (yellow, orange and blue), non uniform illumination and lower contrast between the vessel structures and the background), 3 images in the artifacts image group (affected by strong light reflectance artifacts).
 
@@ -35,6 +35,7 @@ Images belonging to this group are:
 | im0239.ppm.gz |
 | im0240.ppm.gz |
 | im0255.ppm.gz |
+
 For each image the corresponding ground truth hand labelled image is selected automatically. 
 
 The computation of the following evaluation metrics is proposed: 
@@ -67,6 +68,7 @@ Images belonging to this group are:
 | im0291.ppm.gz |-0.25                |
 | im0319.ppm.gz |-0.19                |
 | im0324.ppm.gz |-0.19                |
+
 For each image the corresponding ground truth hand labelled image is selected automatically. 
 
 The computation of the following evaluation metrics is proposed: 
@@ -95,6 +97,7 @@ Images belonging to this group are:
 | im0001.ppm.gz |-0.07                |0.52                 |
 | im0002.ppm.gz |-0.07                |0.46                 |
 | im0003.ppm.gz |-0.04                |0.6                  |
+
 For each image the corresponding ground truth hand labelled image is selected automatically. 
 
 The computation of the following evaluation metrics is proposed: 
