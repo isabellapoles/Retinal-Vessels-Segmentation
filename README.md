@@ -108,3 +108,8 @@ The computation of the following evaluation metrics is proposed:
 5. Positive predictive value (precision).
 
 ```result_Ar``` is the script that allows to compute the mean and standard deviation values of the evaluation metrics proposed above between all the artifact images. The comparison between the performance of the 3 methods listed above is shown in a table. The results are stored in the ```Results``` fold.
+
+## Paper
+If you use this repo or some part of the code, please cite: 
+
+Poles, Isabella, Eleonora D'Arnese, and Marco D. Santambrogio. "An Automatic Active Contour Approach to Segment Retinal Blood Vessels." 2021 IEEE 6th International Forum on Research and Technology for Society and Industry (RTSI). IEEE, 2021.
